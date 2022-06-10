@@ -3,11 +3,10 @@
 
 <section class="autor">
 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgay7e3TO8_PDTr1I33ut8fqOq30B8VQK_Kg&usqp=CAU"
-        alt="">
+    <img *ngIf="progra=='mostrar'" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgay7e3TO8_PDTr1I33ut8fqOq30B8VQK_Kg&usqp=CAU" alt="">
 
     <br>
-    <button>Mostrar o ocultar</button>
+    <button (click)="mostrar" (dblclick)="ocultar">Mostrar o ocultar</button>
 
     <h1>Programadora Emily Delgado Umaña.</h1>
 

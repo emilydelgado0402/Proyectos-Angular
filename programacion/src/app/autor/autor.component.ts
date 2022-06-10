@@ -6,8 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./autor.component.css']
 })
 export class AutorComponent {
-
-  img:string=
   
+progra:string=""
 
+mostrar(){
+  this.progra="mostrar"
 }
+
+ocultar(){
+  this.progra="ocultar"
+}
+
